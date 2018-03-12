@@ -1,11 +1,11 @@
 {
   "name": "seed-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "wangxiaolu <gaoshu883@163.com>",
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.3.2",
