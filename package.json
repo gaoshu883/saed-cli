@@ -1,6 +1,6 @@
 {
-  "name": "sed-cli",
-  "version": "0.1.4",
+  "name": "saed-cli",
+  "version": "0.1.6",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,10 +16,10 @@
     "ora": "^2.0.0"
   },
   "bin": {
-    "sed": "bin/sed.js"
+    "saed": "bin/saed.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gaoshu883/sed-cli.git"
+    "url": "https://github.com/gaoshu883/saed-cli.git"
   }
 }
