@@ -1,6 +1,7 @@
 {
   "tpl": {
-    "url": "https://github.com/Array-Huang/webpack-seed.git",
-    "branch": "master"
-  }
+    "url": "https://github.com/gaoshu883/webpack-seed.git",
+    "branch": "template"
+  },
+  "author": "https://github.com/Array-Huang"
 }
