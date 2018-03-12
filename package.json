@@ -16,6 +16,6 @@
     "ora": "^2.0.0"
   },
   "bin": {
-    "seed": "bin/seed"
+    "sed": "bin/sed.js"
   }
 }
