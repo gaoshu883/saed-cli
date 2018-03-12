@@ -12,7 +12,11 @@ module.exports = (projectRoot) => {
   let target = path.join(projectRoot || '.', '.download-temp')
   let cmdStr = `git clone -b ${branch} ${gitUrl} ${target}`
   if (projectRoot !== '.') {
-    fs.mkdirSync(projectRoot)
+    if (fs.existsSync(projectRoot)) {
+      return console.log(`${projectRoot}已存在`)
+    } else {
+      fs.mkdirSync(projectRoot)
+    }
   }
   download(cmdStr)
     .then(() => {
